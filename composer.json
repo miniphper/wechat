@@ -1,0 +1,20 @@
+{
+  "name": "miniphper/wechat",
+  "description": "Wechat",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "miniphper"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "doctrine/cache": "~1.5.4",
+    "curl/curl": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "miniphper\\wechat\\": "src/"
+    }
+  }
+}
